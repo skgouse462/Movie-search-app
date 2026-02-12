@@ -1,0 +1,62 @@
+body {
+  background-color: #0E0F12;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  color: #91F726;
+}
+
+#search-input {
+  background-color: #1A1A1D;
+  color: #fff;
+  border: 1px solid #91F726;
+}
+
+#search-input:focus{
+  box-shadow: none;
+}
+
+#search-input::placeholder {
+  color: #777;
+}
+
+.btn-highlight {
+  background-color: #91F726;
+  color: #0E0F12;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-highlight:hover {
+  background-color: #7ED520;
+  transform: scale(1.05);
+  color: #0E0F12;
+}
+
+#movie-container .card {
+  background-color: #1A1A1D;
+  border: 1px solid #91F726;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#movie-container .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(145, 247, 38, 0.5);
+}
+
+.modal-content {
+  background-color: #1A1A1D;
+  color: #fff;
+  border: 1px solid #91F726;
+}
+
+.spinner-border.text-highlight {
+  color: #91F726;
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
